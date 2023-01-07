@@ -1,5 +1,5 @@
 # Localisation des restaurants
-Ce projet a pour but de mettre en place une interface permettant de localiser les restarurants dans une ville choisie. Il utilise le framework Angular comme front-end de web et spring boot coté backend. 
+Ce projet a pour but de mettre en place une interface permettant de localiser les restaurants dans une ville choisie. Il utilise le framework Angular comme front-end de web et spring boot coté backend. 
 # Fonctionnalités
 1. Gestion des villes
 2. Gestion des zones
