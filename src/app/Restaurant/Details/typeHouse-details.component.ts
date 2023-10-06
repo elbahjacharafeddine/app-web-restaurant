@@ -6,8 +6,8 @@ import {Restaurant} from "../Restaurant";
 
 @Component({
   selector: 'app-TypeHouse-details',
-  templateUrl: './TypeHouse-details.component.html',
-  styleUrls: ['./TypeHouse-details.component.css']
+  templateUrl: './typeHouse-details.component.html',
+  styleUrls: ['./typeHouse-details.component.css']
 })
 export class RestaurantDetailsComponent implements OnInit {
 
