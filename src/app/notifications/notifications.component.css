@@ -1,0 +1,61 @@
+/* Appliquer un arrière-plan avec l'image de fond */
+body {
+    background-image: url("../../assets/img/back.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    font-family: Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+}
+
+
+
+/* Styles pour le formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.text-danger {
+    color: red;
+    text-align: center;
+}
+
+.text-center.align-items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.btn-primary {
+    background-color: #ff5733; /* Couleur adaptée à un restaurant */
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ff3300; /* Couleur au survol */
+}
+
+/* Styles pour la carte */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour l'en-tête */
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+}

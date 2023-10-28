@@ -6,6 +6,17 @@ declare var $: any;
   styleUrls: ['./notifications.component.css']
 })
 export class NotificationsComponent implements OnInit {
+  erreur!: string ;
+  loading: boolean = false;
+
+  login(formData: any) {
+    this.loading = true;
+    this.erreur = "Username or password incorrect";
+    setTimeout(() => {
+      this.erreur = "";
+      this.loading = false; 
+    }, 3000);
+  }
 
   constructor() { }
   showNotification(from, align){
